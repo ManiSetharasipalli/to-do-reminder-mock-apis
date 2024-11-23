@@ -1,3 +1,11 @@
 {
-    "tasks": []
+  "tasks": [
+    {
+      "id": "1732389056839",
+      "title": "Complete the styles",
+      "details": "",
+      "priority": "high",
+      "completed": true
+    }
+  ]
 }
