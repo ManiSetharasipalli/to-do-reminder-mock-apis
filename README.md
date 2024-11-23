@@ -91,10 +91,6 @@ The API will be available at `http://localhost:3000`
 
 This API is deployed on [Render](https://render.com) and is accessible at https://to-do-reminder-mock-apis.onrender.com
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 👤 Author
 
 **Mani Setharasipalli**
