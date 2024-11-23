@@ -1,12 +1,18 @@
-const jsonServer = require("json-server"); // importing json-server library
-const server = jsonServer.create();
-const router = jsonServer.router("db.json");
-const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 8080; // chose port from here like 8080, 3001
+const jsonServer = require('json-server')
+const cors = require('cors')
+const path = require('path')
 
-server.use(middlewares); // Corrected the typo here
-server.use(router);
+const server = jsonServer.create()
+const router = jsonServer.router(path.join(__dirname, 'db.json'))
+const middlewares = jsonServer.defaults()
 
-server.listen(port, () => {
-  console.log(`JSON Server is running on port ${port}`);
-});
+server.use(cors())
+server.use(jsonServer.bodyParser)
+server.use(middlewares)
+server.use(router)
+
+const PORT = 8000
+
+server.listen(PORT, () => {
+  console.log(`JSON Server is running on http://localhost:${PORT}`)
+})
