@@ -1,11 +1,74 @@
 {
   "tasks": [
     {
-      "id": "1732389056839",
-      "title": "Complete the styles",
-      "details": "",
+      "id": "1",
+      "title": "Update Resume",
+      "details": "Review and refresh your resume",
       "priority": "high",
       "completed": true
+    },
+    {
+      "id": "2",
+      "title": "Review project documentation",
+      "details": "Update technical specs and API documentation",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "title": "Debug login functionality",
+      "details": "Fix authentication issues in user login module",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "id": "4",
+      "title": "Update dependencies",
+      "details": "Update npm packages to latest stable versions",
+      "priority": "medium",
+      "completed": false
+    },
+    {
+      "id": "5",
+      "title": "Write unit tests",
+      "details": "Add test coverage for new features",
+      "priority": "medium",
+      "completed": false
+    },
+    {
+      "id": "6",
+      "title": "Optimize performance",
+      "details": "Implement code splitting and lazy loading",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "id": "7",
+      "title": "Add error handling",
+      "details": "Implement global error boundary and error logging",
+      "priority": "medium",
+      "completed": false
+    },
+    {
+      "id": "8",
+      "title": "Setup CI/CD pipeline",
+      "details": "Configure automated testing and deployment",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "id": "9",
+      "title": "Create user guide",
+      "details": "Write documentation for end users",
+      "priority": "low",
+      "completed": false
+    },
+    {
+      "id": "10",
+      "title": "Implement responsive design",
+      "details": "Make application mobile-friendly",
+      "priority": "medium",
+      "completed": false
     }
   ]
 }
