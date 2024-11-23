@@ -5,7 +5,7 @@
       "title": "Update Resume",
       "details": "Review and refresh your resume",
       "priority": "high",
-      "completed": true
+      "completed": false
     },
     {
       "id": "2",
