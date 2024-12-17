@@ -81,7 +81,6 @@ The API will be available at `http://localhost:3000`
   "id": "1",
   "title": "Complete project",
   "description": "Finish the pending project work",
-  "dueDate": "2024-03-20",
   "priority": "high",
   "completed": false
 }
